@@ -167,7 +167,6 @@ func main() {
 	if err != nil {
 		// Handle error
 		panic(err)
-		fmt.Println(err)
 	}
 
 	// searchResult is of type SearchResult and returns hits, suggestions,
